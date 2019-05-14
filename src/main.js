@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import App from './App'
-import SlideVerify from './lib/index'
+import BatchExport from './lib/index'
 
 Vue.config.productionTip = false
-Vue.use(SlideVerify)
+Vue.use(BatchExport)
 
 /* eslint-disable no-new */
 new Vue({

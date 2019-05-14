@@ -1,6 +1,6 @@
 import { exportExcel } from './export-excel';
 export default {
-  name: 'batch-export',
+  name: 'BatchExport',
   props: {
     url: { // 导出表格的请求路径
       type: String,
